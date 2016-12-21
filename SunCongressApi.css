@@ -1,0 +1,208 @@
+ body{
+	 background-color: #e5e5e5;
+ }
+ .divbordersOut {
+	 margin:15 0 15 0;
+	 border: 1px solid;
+	 border-radius: 5px;
+	 border-color: #bababa;
+	 background-color: white;
+ }
+  .divbordersIn {
+	 margin:15 15 15 15;
+	 border: 1px solid;
+	 border-radius: 5px;
+	 border-color: #bababa;
+ }
+ .divTabTopBar {
+	 background-color:#f8f8f8;
+	 border-radius: 5px;
+	 display: inline-flex;
+	 width:100%;
+ }
+  .divExcess {
+	  border: 1px solid;
+	 border-color: #bababa;
+ }
+
+ .btnDetailsTab{
+	 font-size: 20;
+	 padding: 5;
+	 vertical-align: middle;
+	 margin: 10 3 0 10;
+	 border: 1px solid;
+	 border-radius: 3px;
+	 border-color: #bababa;
+ }
+  .starbtnDetailsTab{
+	 font-size: 20;
+	 padding: 5;
+	 vertical-align: middle;
+	 margin: 10 20 0 0;
+	 border: 1px solid;
+	 border-radius: 3px;
+	 border-color: #bababa;
+ }
+ .DetailPageHeadline {
+	 display:inline-block;
+	 margin:10 0 0 0;
+	 vertical-align: middle;
+ }
+ .DetailsMainTable{
+	 margin:10 20;
+	 width: 100%;
+ }
+ 
+ .topnavbar {
+	 background-color:white;
+	 vertical-align:middle;
+	 text-align:center;
+ }
+ 
+ .sidebarSyle{
+	 position: fixed;
+	 background-color:black;
+	 width: 160px;
+	 height: 100%;
+	 z-index:1000;
+	 font-size: 16;
+	 transition: all 0.25s ease;
+}
+
+ .warpperDiv{
+	 margin-left:175px;
+	 margin-right:10px;
+	 transition: all 0.25s ease;
+ }
+ 
+ .sideList{
+	position:fixed;
+	margin-top:25px; 
+	transition: all 0.25s ease;
+	overflow:hidden;
+}
+
+  .sidebarSyle2{
+	 position: fixed;
+	 background-color:black;
+	 width: 0px;
+	 height: 100%;
+	 z-index:1000;
+	 font-size: 16;
+	 transition: all 0.25s ease;
+}
+
+ .warpperDiv2{
+	 margin-left:15px;
+	 transition: all 0.25s ease;
+	 margin-right:10px;
+ }
+
+.sideList2{
+	margin-top:25px;
+	display:none;
+	transition: all 0.25s ease;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+    background-color:black;
+	color:white;
+	outline: medium none;
+}
+
+ .sideListLink {
+	 color: #d2d2d2;
+	 text-decoration: none;
+ }
+ 
+ .sideListItem{
+	 margin: 10 0;
+ }
+ 
+.topHeaderText{
+    display: inline;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.glyphHambExtra{
+    color: black;
+    text-decoration: none;
+    font-size: 16;
+    vertical-align: middle;
+}
+.navSunApi {
+    margin: 0;
+    text-align: center;
+    background-color: white
+}
+.navSunApiHam{
+    position: absolute;
+    left: 0;
+    padding: 10;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.nav-tabs > li > a{
+	color:#a2a2a2
+}
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus{
+	color:#a2a2a2;
+	background-color:white;
+	
+}
+
+.starfill{
+	color:#f9d002;
+	
+}
+
+/*td {
+	max-width: 400px;
+	word-wrap: break-word;
+}*/
+
+.delBtn:hover {
+	color:red;
+}
+
+.td_To_hide{
+
+}
+
+ @media (max-width:768px) {
+	.sidebarSyle {
+	 position: fixed;
+	 background-color:black;
+	 width: 45px;
+	 height: 100%;
+	 z-index:1000;
+	 font-size: 16;
+	 transition: all 0.5s ease;
+	}
+	.warpperDiv {
+	 margin-left:60px;
+	 margin-right:10px;
+	}
+	.hideMenuText {
+		 display: none;
+		 padding: 10 5
+	}
+	.topHeaderText{
+		font-size: 18px;
+	    display: inline;
+	    vertical-align: middle;
+	    font-weight: bold;
+	}
+
+	.element_To_hide{
+		display: none; 
+	}
+	.div_To_hide{
+		/*display: none;*/
+	}
+	.table {
+		margin:0 10;
+	}
+ }
